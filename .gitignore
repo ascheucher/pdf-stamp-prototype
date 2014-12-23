@@ -1,0 +1,6 @@
+build
+out
+src/test/resources/HBK_AP_--_EG01_01_G_RiRi_46_AR1380_G06.pdf
+src/test/resources/HBK_AP_--_EG01_02_G_RiRi_46_AR1380_G06.pdf
+src/test/resources/HBK_EG01_BT2.pdf
+.gradle
