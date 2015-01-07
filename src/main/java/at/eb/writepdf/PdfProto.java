@@ -8,6 +8,9 @@ import org.apache.pdfbox.pdmodel.edit.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.font.PDFont;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB;
+import org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace;
+import org.apache.pdfbox.pdmodel.graphics.color.PDColorSpaceFactory;
+import org.apache.pdfbox.pdmodel.graphics.color.PDDeviceRGB;
 import org.apache.pdfbox.pdmodel.graphics.xobject.PDJpeg;
 import org.apache.pdfbox.pdmodel.graphics.xobject.PDXObjectImage;
 
@@ -164,21 +167,23 @@ public class PdfProto {
             PDPage page = (PDPage) doc.getDocumentCatalog().getAllPages().get(0);
 
             PDFont font = PDType1Font.HELVETICA;
-            PDRectangle pageSize = page.findMediaBox();
+            PDRectangle pageSize = page.findCropBox();
             float pageWidth = pageSize.getWidth();
             float pageHeight = pageSize.getHeight();
-            float lineWidth = Math.max(pageWidth, pageHeight) / 1000;
+            float lineWidth = Math.max(pageWidth, pageHeight) / 10000;
             float markerRadius = lineWidth * 10;
-            float fontSize = Math.min(pageWidth, pageHeight) / 20;
-            float fontPadding = Math.max(pageWidth, pageHeight) / 100;
+            float fontSize = Math.min(pageWidth, pageHeight) / 100;
+            float fontPadding = Math.max(pageWidth, pageHeight) / 250;
 
-            PDPageContentStream contentStream = new PDPageContentStream(doc, page, true, true);
+            PDColorSpace colorSpace = PDColorSpaceFactory.createColorSpace(PDDeviceRGB.NAME);
+
+            PDPageContentStream contentStream = new PDPageContentStream(doc, page, true, true, true);
             contentStream.saveGraphicsState();
             contentStream.setFont(font, fontSize);
             contentStream.setLineWidth(lineWidth);
             contentStream.setLineCapStyle(1);
-            contentStream.setStrokingColorSpace(new PDCalRGB());
-            contentStream.setNonStrokingColorSpace(new PDCalRGB());
+            contentStream.setStrokingColorSpace(colorSpace);
+            contentStream.setNonStrokingColorSpace(colorSpace);
             while (markerIterator.hasNext()) {
                 PdfStampMarker marker = markerIterator.next();
                 contentStream.setStrokingColor(marker.color.r, marker.color.g, marker.color.b);
@@ -187,7 +192,7 @@ public class PdfProto {
 
                 drawStartMarker(contentStream, marker.startX, marker.startY, markerRadius);
 
-                float textWidth = font.getStringWidth(marker.id) * 0.043f;
+                float textWidth = font.getStringWidth(marker.id) * 0.001f * fontSize;
                 contentStream.beginText();
                 contentStream.setTextScaling(1, 1, 0, 0);
                 contentStream.moveTextPositionByAmount(

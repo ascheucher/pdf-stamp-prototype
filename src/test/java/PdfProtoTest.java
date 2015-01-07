@@ -74,21 +74,20 @@ public class PdfProtoTest {
 
     @Test
     public void stampMarkerOverPortraitPlan() throws IOException, PdfProto.PdfStampException {
-        doStampMarkerTest(TEMPLATE_PORTRAIT_PDF, OUTPUT_PORTRAIT_MARKED_PDF, 1, 0);
+        doStampMarkerTest(TEMPLATE_PORTRAIT_PDF, OUTPUT_PORTRAIT_MARKED_PDF, 0.1f, 50, 50);
     }
 
     @Test
     public void stampMarkerOverPlanLandscape() throws IOException, PdfProto.PdfStampException {
-        doStampMarkerTest(TEMPLATE_LANDSCAPE_PDF, OUTPUT_LANDSCAPE_MARKED_PDF, 1, 0);
+        doStampMarkerTest(TEMPLATE_LANDSCAPE_PDF, OUTPUT_LANDSCAPE_MARKED_PDF, 0.1f, 110, 90);
     }
 
-    @Ignore
     @Test
     public void stampMarkerOverRiRiPlan() throws IOException, PdfProto.PdfStampException {
-        doStampMarkerTest(RI_RI_EXAMPLE, RI_RI_MARKER_EXAMPLE_OUT, 0.25f, 50);
+        doStampMarkerTest(RI_RI_EXAMPLE, RI_RI_MARKER_EXAMPLE_OUT, 0.1f, 50, 50);
     }
 
-    private void doStampMarkerTest(String inputPdf, String outputPdf, float scale, float offset) throws IOException, PdfProto.PdfStampException {
+    private void doStampMarkerTest(String inputPdf, String outputPdf, float scale, float xOffset, float yOffset) throws IOException, PdfProto.PdfStampException {
         InputStream template = ClassLoader.getSystemResourceAsStream(inputPdf);
         File tmpDir = new File(TMP_DIR);
         if (!tmpDir.isDirectory()) {
@@ -100,10 +99,10 @@ public class PdfProtoTest {
         OutputStream target = new FileOutputStream(outFile);
         List<PdfProto.PdfStampMarker> markers = new ArrayList();
         Color color = new Color(255, 163, 25);
-        markers.add(new PdfProto.PdfStampMarker("Point Top", 1000 * scale + offset, 1000 * scale + offset, 1100 * scale + offset, 2000 * scale + offset, color));
-        markers.add(new PdfProto.PdfStampMarker("Point Right", 1000 * scale + offset, 1000 * scale + offset, 2000 * scale + offset, 900 * scale + offset, color));
-        markers.add(new PdfProto.PdfStampMarker("Point Bottom", 1000 * scale + offset, 1000 * scale + offset, 900 * scale + offset, 100 * scale + offset, color));
-        markers.add(new PdfProto.PdfStampMarker("Point Left", 1000 * scale + offset, 1000 * scale + offset, 100 * scale + offset, 1100 * scale + offset, color));
+        markers.add(new PdfProto.PdfStampMarker("Point Top", 1000 * scale + xOffset, 1000 * scale + yOffset, 1100 * scale + xOffset, 2000 * scale + yOffset, color));
+        markers.add(new PdfProto.PdfStampMarker("Point Right", 1000 * scale + xOffset, 1000 * scale + yOffset, 2000 * scale + xOffset, 900 * scale + yOffset, color));
+        markers.add(new PdfProto.PdfStampMarker("Point Bottom", 1000 * scale + xOffset, 1000 * scale + yOffset, 900 * scale + xOffset, 100 * scale + yOffset, color));
+        markers.add(new PdfProto.PdfStampMarker("Point Left", 1000 * scale + xOffset, 1000 * scale + yOffset, 100 * scale + xOffset, 1100 * scale + yOffset, color));
         PdfProto.stampMarkerOverlay(template, target, markers);
     }
 }

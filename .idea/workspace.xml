@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f857b1f-989b-45b8-8a29-c47fc0e86315" name="Default" comment="" />
+    <list default="true" id="1f857b1f-989b-45b8-8a29-c47fc0e86315" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java" afterPath="$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PdfProtoTest.java" afterPath="$PROJECT_DIR$/src/test/java/PdfProtoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ITextPrototype.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +28,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <ui_properties converted="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -54,8 +65,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java" line="195" class="at.eb.writepdf.PdfProto" package="at.eb.writepdf">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -72,8 +82,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -81,76 +90,158 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PDType1Font.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PDType1Font.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDType1Font.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="41" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="7845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdfProto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="0" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="7200">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#20118#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6702#6703#0" expanded="false" />
+                <element signature="e#6761#6762#0" expanded="false" />
+                <element signature="e#6959#6960#0" expanded="false" />
+                <element signature="e#7038#7039#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PdfProtoTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PdfProto.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20729685" vertical-offset="2125" max-vertical-offset="3570">
+              <caret line="172" column="27" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdfProtoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="11" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.53266335" vertical-offset="610" max-vertical-offset="1605">
+            <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1590">
+              <caret line="86" column="79" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDTextState.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PDTextState.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="4170">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3135">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#6181#0" expanded="false" />
+                <element signature="e#2748#2749#0" expanded="false" />
+                <element signature="e#2787#2788#0" expanded="false" />
+                <element signature="e#2954#2955#0" expanded="false" />
+                <element signature="e#2994#2995#0" expanded="false" />
+                <element signature="e#3131#3132#0" expanded="false" />
+                <element signature="e#3165#3166#0" expanded="false" />
+                <element signature="e#3317#3318#0" expanded="false" />
+                <element signature="e#3352#3353#0" expanded="false" />
+                <element signature="e#3683#3684#0" expanded="false" />
+                <element signature="e#3723#3724#0" expanded="false" />
+                <element signature="e#3900#3901#0" expanded="false" />
+                <element signature="e#3941#3942#0" expanded="false" />
+                <element signature="e#4066#4067#0" expanded="false" />
+                <element signature="e#4096#4097#0" expanded="false" />
+                <element signature="e#4236#4237#0" expanded="false" />
+                <element signature="e#4267#4268#0" expanded="false" />
+                <element signature="e#4384#4385#0" expanded="false" />
+                <element signature="e#4411#4412#0" expanded="false" />
+                <element signature="e#4543#4544#0" expanded="false" />
+                <element signature="e#4571#4572#0" expanded="false" />
+                <element signature="e#4699#4700#0" expanded="false" />
+                <element signature="e#4730#4731#0" expanded="false" />
+                <element signature="e#4873#4874#0" expanded="false" />
+                <element signature="e#4905#4906#0" expanded="false" />
+                <element signature="e#5046#5047#0" expanded="false" />
+                <element signature="e#5082#5083#0" expanded="false" />
+                <element signature="e#5238#5239#0" expanded="false" />
+                <element signature="e#5275#5276#0" expanded="false" />
+                <element signature="e#5391#5392#0" expanded="false" />
+                <element signature="e#5418#5419#0" expanded="false" />
+                <element signature="e#5549#5550#0" expanded="false" />
+                <element signature="e#5577#5578#0" expanded="false" />
+                <element signature="e#5711#5712#0" expanded="false" />
+                <element signature="e#5742#5743#0" expanded="false" />
+                <element signature="e#5891#5892#0" expanded="false" />
+                <element signature="e#5923#5924#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDSimpleFont.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PDSimpleFont.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="318" column="41" selection-start="10334" selection-end="10334" vertical-scroll-proportion="0.0" vertical-offset="4770" max-vertical-offset="8340">
+            <state vertical-scroll-proportion="-3.5964913" vertical-offset="1625" max-vertical-offset="7395">
+              <caret line="173" column="15" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDFont.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Encoding.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/encoding/Encoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4110" max-vertical-offset="5610">
+              <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDFont.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFont.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="28" selection-start="7170" selection-end="7170" vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="14640">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5401" max-vertical-offset="13290">
+              <caret line="429" column="25" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
+              <folding>
+                <element signature="e#20265#20266#0" expanded="true" />
+                <element signature="e#20300#20301#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPageContentStream.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PDPageContentStream.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="474" column="18" selection-start="18819" selection-end="18819" vertical-scroll-proportion="0.0" vertical-offset="7110" max-vertical-offset="22845">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="22095">
+              <caret line="474" column="18" selection-start-line="474" selection-start-column="18" selection-end-line="474" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#52710#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="COSString.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="COSString.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="387" column="16" selection-start="11229" selection-end="11229" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="7560">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5145" max-vertical-offset="6900">
+              <caret line="387" column="16" selection-start-line="387" selection-start-column="16" selection-end-line="387" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#14302#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3394#3395#0" expanded="false" />
+                <element signature="e#3443#3444#0" expanded="false" />
+                <element signature="e#3724#3725#0" expanded="false" />
+                <element signature="e#3746#3747#0" expanded="false" />
+                <element signature="e#5703#5704#0" expanded="false" />
+                <element signature="e#5736#5737#0" expanded="false" />
+                <element signature="e#6060#6061#0" expanded="false" />
+                <element signature="e#6092#6093#0" expanded="false" />
+                <element signature="e#10794#10795#0" expanded="false" />
+                <element signature="e#10834#10835#0" expanded="false" />
+                <element signature="e#10921#10922#0" expanded="false" />
+                <element signature="e#10981#10982#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,12 +253,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
         <entry key="ITextPrototype/" value="true" />
       </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="test" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
     </option>
     <option name="availableProjects">
       <map>
@@ -282,12 +394,8 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/jpegIter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/eb/writepdf/Dummy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/eb/writepdf/TextCenterAligned.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java" />
         <option value="$PROJECT_DIR$/src/test/java/PdfProtoTest.java" />
       </list>
@@ -295,11 +403,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1747" />
-    <option name="y" value="24" />
-    <option name="width" value="1715" />
-    <option name="height" value="1176" />
+    <option name="y" value="52" />
+    <option name="width" value="1695" />
+    <option name="height" value="1148" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -313,7 +421,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -437,8 +545,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,11 +579,13 @@
       <recent name="jpegIter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PdfProtoTest.stampMarkerOverPortraitPlan">
+  <component name="RunManager" selected="Gradle.ITextPrototype [test]">
     <configuration default="false" name="ITextPrototype [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
+        <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -490,28 +600,12 @@
       <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ITextPrototype [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="check" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="ITextPrototype [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
+        <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -527,6 +621,7 @@
       <method />
     </configuration>
     <configuration default="false" name="TextCenterAligned" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="at.eb.writepdf.TextCenterAligned" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -543,6 +638,7 @@
       <method />
     </configuration>
     <configuration default="false" name="PdfProtoTest.stampMarkerOverPortraitPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ITextPrototype" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -570,6 +666,26 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ITextPrototype [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -579,6 +695,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -615,6 +732,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -635,12 +753,15 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
+        <option name="executionName" />
         <option name="externalProjectPath" />
         <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -651,7 +772,7 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
@@ -670,7 +791,13 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -698,6 +825,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -713,18 +841,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.ITextPrototype [build]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.ITextPrototype [check]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.ITextPrototype [clean]" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TextCenterAligned" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PdfProtoTest.stampMarkerOverPortraitPlan" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.ITextPrototype [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TextCenterAligned" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PdfProtoTest.stampMarkerOverPortraitPlan" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.ITextPrototype [test]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PdfProtoTest.stampMarkerOverPortraitPlan" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TextCenterAligned" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.ITextPrototype [clean]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.ITextPrototype [build]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.ITextPrototype [check]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.ITextPrototype [test]" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PdfProtoTest.stampMarkerOverPortraitPlan" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TextCenterAligned" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.ITextPrototype [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.ITextPrototype [build]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -733,54 +861,41 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f857b1f-989b-45b8-8a29-c47fc0e86315" name="Default" comment="" />
       <created>1418632825630</created>
+      <option name="number" value="Default" />
       <updated>1418632825630</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1747" y="24" width="1715" height="1176" extended-state="4" />
+    <frame x="1747" y="52" width="1695" height="1148" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33774835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33774835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21040048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16258219" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20931639" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16212946" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24955437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,7 +905,10 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -803,7 +921,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -812,152 +933,497 @@
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDType1Font.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="41" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7845">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="7200">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#20118#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6702#6703#0" expanded="false" />
+            <element signature="e#6761#6762#0" expanded="false" />
+            <element signature="e#6959#6960#0" expanded="false" />
+            <element signature="e#7038#7039#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="40" selection-start="6991" selection-end="7470" vertical-scroll-proportion="0.0" vertical-offset="2705" max-vertical-offset="3840">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3540">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="106" selection-start="5219" selection-end="5219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4170">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3135">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#6181#0" expanded="false" />
+            <element signature="e#2748#2749#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2954#2955#0" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3131#3132#0" expanded="false" />
+            <element signature="e#3165#3166#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3352#3353#0" expanded="false" />
+            <element signature="e#3683#3684#0" expanded="false" />
+            <element signature="e#3723#3724#0" expanded="false" />
+            <element signature="e#3900#3901#0" expanded="false" />
+            <element signature="e#3941#3942#0" expanded="false" />
+            <element signature="e#4066#4067#0" expanded="false" />
+            <element signature="e#4096#4097#0" expanded="false" />
+            <element signature="e#4236#4237#0" expanded="false" />
+            <element signature="e#4267#4268#0" expanded="false" />
+            <element signature="e#4384#4385#0" expanded="false" />
+            <element signature="e#4411#4412#0" expanded="false" />
+            <element signature="e#4543#4544#0" expanded="false" />
+            <element signature="e#4571#4572#0" expanded="false" />
+            <element signature="e#4699#4700#0" expanded="false" />
+            <element signature="e#4730#4731#0" expanded="false" />
+            <element signature="e#4873#4874#0" expanded="false" />
+            <element signature="e#4905#4906#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+            <element signature="e#5082#5083#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5275#5276#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5418#5419#0" expanded="false" />
+            <element signature="e#5549#5550#0" expanded="false" />
+            <element signature="e#5577#5578#0" expanded="false" />
+            <element signature="e#5711#5712#0" expanded="false" />
+            <element signature="e#5742#5743#0" expanded="false" />
+            <element signature="e#5891#5892#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="41" selection-start="10334" selection-end="10334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3915" max-vertical-offset="7395">
+          <caret line="318" column="41" selection-start-line="318" selection-start-column="41" selection-end-line="318" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="28" selection-start="7170" selection-end="7170" vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="14640">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2565" max-vertical-offset="13245">
+          <caret line="222" column="28" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
+          <folding>
+            <element signature="e#20265#20266#0" expanded="true" />
+            <element signature="e#20300#20301#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="474" column="18" selection-start="18819" selection-end="18819" vertical-scroll-proportion="0.0" vertical-offset="7110" max-vertical-offset="22845">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="22095">
+          <caret line="474" column="18" selection-start-line="474" selection-start-column="18" selection-end-line="474" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#52710#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="16" selection-start="11229" selection-end="11229" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="7560">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5145" max-vertical-offset="6900">
+          <caret line="387" column="16" selection-start-line="387" selection-start-column="16" selection-end-line="387" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#14302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3394#3395#0" expanded="false" />
+            <element signature="e#3443#3444#0" expanded="false" />
+            <element signature="e#3724#3725#0" expanded="false" />
+            <element signature="e#3746#3747#0" expanded="false" />
+            <element signature="e#5703#5704#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#6060#6061#0" expanded="false" />
+            <element signature="e#6092#6093#0" expanded="false" />
+            <element signature="e#10794#10795#0" expanded="false" />
+            <element signature="e#10834#10835#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#10981#10982#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDType1Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7845">
+          <caret line="48" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20118#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6702#6703#0" expanded="false" />
+            <element signature="e#6761#6762#0" expanded="false" />
+            <element signature="e#6959#6960#0" expanded="false" />
+            <element signature="e#7038#7039#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="3825">
+          <caret line="27" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1605">
+          <caret line="84" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="4170">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6181#0" expanded="false" />
+            <element signature="e#2748#2749#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2954#2955#0" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3131#3132#0" expanded="false" />
+            <element signature="e#3165#3166#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3352#3353#0" expanded="false" />
+            <element signature="e#3683#3684#0" expanded="false" />
+            <element signature="e#3723#3724#0" expanded="false" />
+            <element signature="e#3900#3901#0" expanded="false" />
+            <element signature="e#3941#3942#0" expanded="false" />
+            <element signature="e#4066#4067#0" expanded="false" />
+            <element signature="e#4096#4097#0" expanded="false" />
+            <element signature="e#4236#4237#0" expanded="false" />
+            <element signature="e#4267#4268#0" expanded="false" />
+            <element signature="e#4384#4385#0" expanded="false" />
+            <element signature="e#4411#4412#0" expanded="false" />
+            <element signature="e#4543#4544#0" expanded="false" />
+            <element signature="e#4571#4572#0" expanded="false" />
+            <element signature="e#4699#4700#0" expanded="false" />
+            <element signature="e#4730#4731#0" expanded="false" />
+            <element signature="e#4873#4874#0" expanded="false" />
+            <element signature="e#4905#4906#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+            <element signature="e#5082#5083#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5275#5276#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5418#5419#0" expanded="false" />
+            <element signature="e#5549#5550#0" expanded="false" />
+            <element signature="e#5577#5578#0" expanded="false" />
+            <element signature="e#5711#5712#0" expanded="false" />
+            <element signature="e#5742#5743#0" expanded="false" />
+            <element signature="e#5891#5892#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8340">
+          <caret line="318" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="14640">
+          <caret line="222" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20265#20266#0" expanded="true" />
+            <element signature="e#20300#20301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7110" max-vertical-offset="22845">
+          <caret line="474" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52710#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="7560">
+          <caret line="387" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3394#3395#0" expanded="false" />
+            <element signature="e#3443#3444#0" expanded="false" />
+            <element signature="e#3724#3725#0" expanded="false" />
+            <element signature="e#3746#3747#0" expanded="false" />
+            <element signature="e#5703#5704#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#6060#6061#0" expanded="false" />
+            <element signature="e#6092#6093#0" expanded="false" />
+            <element signature="e#10794#10795#0" expanded="false" />
+            <element signature="e#10834#10835#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#10981#10982#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDType1Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7845">
+          <caret line="48" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20118#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6702#6703#0" expanded="false" />
+            <element signature="e#6761#6762#0" expanded="false" />
+            <element signature="e#6959#6960#0" expanded="false" />
+            <element signature="e#7038#7039#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2705" max-vertical-offset="3840">
+          <caret line="197" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="99" column="106" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4170">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6181#0" expanded="false" />
+            <element signature="e#2748#2749#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2954#2955#0" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3131#3132#0" expanded="false" />
+            <element signature="e#3165#3166#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3352#3353#0" expanded="false" />
+            <element signature="e#3683#3684#0" expanded="false" />
+            <element signature="e#3723#3724#0" expanded="false" />
+            <element signature="e#3900#3901#0" expanded="false" />
+            <element signature="e#3941#3942#0" expanded="false" />
+            <element signature="e#4066#4067#0" expanded="false" />
+            <element signature="e#4096#4097#0" expanded="false" />
+            <element signature="e#4236#4237#0" expanded="false" />
+            <element signature="e#4267#4268#0" expanded="false" />
+            <element signature="e#4384#4385#0" expanded="false" />
+            <element signature="e#4411#4412#0" expanded="false" />
+            <element signature="e#4543#4544#0" expanded="false" />
+            <element signature="e#4571#4572#0" expanded="false" />
+            <element signature="e#4699#4700#0" expanded="false" />
+            <element signature="e#4730#4731#0" expanded="false" />
+            <element signature="e#4873#4874#0" expanded="false" />
+            <element signature="e#4905#4906#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+            <element signature="e#5082#5083#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5275#5276#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5418#5419#0" expanded="false" />
+            <element signature="e#5549#5550#0" expanded="false" />
+            <element signature="e#5577#5578#0" expanded="false" />
+            <element signature="e#5711#5712#0" expanded="false" />
+            <element signature="e#5742#5743#0" expanded="false" />
+            <element signature="e#5891#5892#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8340">
+          <caret line="318" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="14640">
+          <caret line="222" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20265#20266#0" expanded="true" />
+            <element signature="e#20300#20301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7110" max-vertical-offset="22845">
+          <caret line="474" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52710#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="7560">
+          <caret line="387" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3394#3395#0" expanded="false" />
+            <element signature="e#3443#3444#0" expanded="false" />
+            <element signature="e#3724#3725#0" expanded="false" />
+            <element signature="e#3746#3747#0" expanded="false" />
+            <element signature="e#5703#5704#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#6060#6061#0" expanded="false" />
+            <element signature="e#6092#6093#0" expanded="false" />
+            <element signature="e#10794#10795#0" expanded="false" />
+            <element signature="e#10834#10835#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#10981#10982#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+          <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="16" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1275">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1275">
+          <caret line="66" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="540">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="540">
+          <caret line="27" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
+          <caret line="17" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="32" selection-start="7199" selection-end="7199" vertical-scroll-proportion="0.0" vertical-offset="3075" max-vertical-offset="26550" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3075" max-vertical-offset="26550">
+          <caret line="240" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="11" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="3795" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="3795">
+          <caret line="52" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/common/PDMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="36" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1455" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1455">
+          <caret line="51" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDType1Font.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="41" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7290">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="7200">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#20118#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6702#6703#0" expanded="false" />
+            <element signature="e#6761#6762#0" expanded="false" />
+            <element signature="e#6959#6960#0" expanded="false" />
+            <element signature="e#7038#7039#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFontDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7800" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="41" selection-start="10334" selection-end="10334" vertical-scroll-proportion="0.0" vertical-offset="3874" max-vertical-offset="7575">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7800">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/TextCenterAligned.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="12" selection-start="2793" selection-end="2859" vertical-scroll-proportion="0.022184301" vertical-offset="932" max-vertical-offset="2190">
+        <state vertical-scroll-proportion="0.022184301" vertical-offset="932" max-vertical-offset="2190">
+          <caret line="63" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -966,48 +1432,142 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/cos/COSString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="16" selection-start="11229" selection-end="11229" vertical-scroll-proportion="0.0" vertical-offset="6023" max-vertical-offset="7125">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5145" max-vertical-offset="6900">
+          <caret line="387" column="16" selection-start-line="387" selection-start-column="16" selection-end-line="387" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#14302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3394#3395#0" expanded="false" />
+            <element signature="e#3443#3444#0" expanded="false" />
+            <element signature="e#3724#3725#0" expanded="false" />
+            <element signature="e#3746#3747#0" expanded="false" />
+            <element signature="e#5703#5704#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#6060#6061#0" expanded="false" />
+            <element signature="e#6092#6093#0" expanded="false" />
+            <element signature="e#10794#10795#0" expanded="false" />
+            <element signature="e#10834#10835#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#10981#10982#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="3135">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#6181#0" expanded="false" />
+            <element signature="e#2748#2749#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2954#2955#0" expanded="false" />
+            <element signature="e#2994#2995#0" expanded="false" />
+            <element signature="e#3131#3132#0" expanded="false" />
+            <element signature="e#3165#3166#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#3352#3353#0" expanded="false" />
+            <element signature="e#3683#3684#0" expanded="false" />
+            <element signature="e#3723#3724#0" expanded="false" />
+            <element signature="e#3900#3901#0" expanded="false" />
+            <element signature="e#3941#3942#0" expanded="false" />
+            <element signature="e#4066#4067#0" expanded="false" />
+            <element signature="e#4096#4097#0" expanded="false" />
+            <element signature="e#4236#4237#0" expanded="false" />
+            <element signature="e#4267#4268#0" expanded="false" />
+            <element signature="e#4384#4385#0" expanded="false" />
+            <element signature="e#4411#4412#0" expanded="false" />
+            <element signature="e#4543#4544#0" expanded="false" />
+            <element signature="e#4571#4572#0" expanded="false" />
+            <element signature="e#4699#4700#0" expanded="false" />
+            <element signature="e#4730#4731#0" expanded="false" />
+            <element signature="e#4873#4874#0" expanded="false" />
+            <element signature="e#4905#4906#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+            <element signature="e#5082#5083#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5275#5276#0" expanded="false" />
+            <element signature="e#5391#5392#0" expanded="false" />
+            <element signature="e#5418#5419#0" expanded="false" />
+            <element signature="e#5549#5550#0" expanded="false" />
+            <element signature="e#5577#5578#0" expanded="false" />
+            <element signature="e#5711#5712#0" expanded="false" />
+            <element signature="e#5742#5743#0" expanded="false" />
+            <element signature="e#5891#5892#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6360" max-vertical-offset="22095">
+          <caret line="474" column="18" selection-start-line="474" selection-start-column="18" selection-end-line="474" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#52710#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceRGB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23300971" vertical-offset="0" max-vertical-offset="1365">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpaceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46407768" vertical-offset="2027" max-vertical-offset="3780">
+          <caret line="196" column="54" selection-start-line="196" selection-start-column="40" selection-end-line="196" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDFont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="28" selection-start="7170" selection-end="7170" vertical-scroll-proportion="0.0" vertical-offset="2415" max-vertical-offset="13695">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5401" max-vertical-offset="13290">
+          <caret line="429" column="25" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
+          <folding>
+            <element signature="e#20265#20266#0" expanded="true" />
+            <element signature="e#20300#20301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/encoding/Encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4110" max-vertical-offset="5610">
+          <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/text/PDTextState.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/font/PDSimpleFont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="3135">
+        <state vertical-scroll-proportion="-3.5964913" vertical-offset="1625" max-vertical-offset="7395">
+          <caret line="173" column="15" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.8/b33ef1a2ba89bde7022fe382ec232b15df5e1d7c/pdfbox-1.8.8-sources.jar!/org/apache/pdfbox/pdmodel/edit/PDPageContentStream.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="474" column="18" selection-start="18819" selection-end="18819" vertical-scroll-proportion="0.0" vertical-offset="6638" max-vertical-offset="22620">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1590">
+          <caret line="86" column="79" selection-start-line="86" selection-start-column="79" selection-end-line="86" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/eb/writepdf/PdfProto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="0" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PdfProtoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="11" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.53266335" vertical-offset="610" max-vertical-offset="1605">
+        <state vertical-scroll-proportion="0.20729685" vertical-offset="2125" max-vertical-offset="3570">
+          <caret line="172" column="27" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
