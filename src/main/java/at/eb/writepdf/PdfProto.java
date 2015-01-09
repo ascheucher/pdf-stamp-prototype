@@ -57,7 +57,7 @@ public class PdfProto {
             }
             doc = PDDocument.load(templatePdf);
             PDPage page = (PDPage) doc.getDocumentCatalog().getAllPages().get(0);
-            PDPageContentStream contentStream = new PDPageContentStream(doc, page, true, true);
+            PDPageContentStream contentStream = new PDPageContentStream(doc, page, true, true, true);
             while (jpegIterator.hasNext()) {
                 PdfStampJpeg jpeg = jpegIterator.next();
                 PDXObjectImage img = new PDJpeg(doc, new FileInputStream(jpeg.file));
@@ -135,21 +135,27 @@ public class PdfProto {
         }
 
         public float getXTextOffset(float textWidth, float fontPadding) {
-            if (getLocation() == Location.TOP)
-                return (textWidth / 2 + fontPadding) * -1;
-            else if (getLocation() == Location.BOTTOM)
-                return (textWidth / 2 + fontPadding) * -1;
-            else if (getLocation() == Location.RIGHT)
+            Location location = getLocation();
+            if (location == Location.TOP)
+                return textWidth / 2 * -1;
+            else if (location == Location.BOTTOM)
+                return textWidth / 2 * -1;
+            else if (location == Location.RIGHT)
                 return 0 + fontPadding;
             else
                 return (textWidth + fontPadding) * -1;
         }
 
-        public float getYTextOffset(float fontSize, float fontPadding) {
+        public float getYTextOffset(PDFont font, float fontSize, float fontPadding) throws PdfStampException {
             if (getLocation() == Location.TOP)
                 return 0 + fontPadding;
             else if (getLocation() == Location.BOTTOM)
-                return (fontSize + fontPadding) * -1f;
+                try {
+                    float offset = font.getFontBoundingBox().getHeight() * 0.001f * fontSize;
+                    return (offset + fontPadding) * -1f;
+                } catch (IOException e) {
+                    throw new PdfStampException("Not able to read font bounding box", e);
+                }
             else
                 return fontSize / 2 * -1;
         }
@@ -197,7 +203,7 @@ public class PdfProto {
                 contentStream.setTextScaling(1, 1, 0, 0);
                 contentStream.moveTextPositionByAmount(
                         marker.endX + marker.getXTextOffset(textWidth, fontPadding),
-                        marker.endY + marker.getYTextOffset(fontSize, fontPadding));
+                        marker.endY + marker.getYTextOffset(font, fontSize, fontPadding));
                 contentStream.drawString(marker.id);
                 contentStream.endText();
             }

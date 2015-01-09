@@ -30,26 +30,22 @@ public class PdfProtoTest {
     private static final String RI_RI_EXAMPLE_OUT = TMP_DIR + "/HBK_AP_--_EG01_01_G_RiRi_46_AR1380_G06_stamped.pdf";
     private static final String RI_RI_MARKER_EXAMPLE_OUT = TMP_DIR + "/HBK_AP_--_EG01_01_G_RiRi_46_AR1380_G06_stamped_marker.pdf";
 
-    @Ignore
     @Test
     public void stampImageOverRiRiPlan() throws IOException, PdfProto.PdfStampException {
         doStampImageTest(RI_RI_EXAMPLE, ARROW_LEFT, RI_RI_EXAMPLE_OUT);
     }
 
-    @Ignore
     @Test
     public void stampImageOverPlanWrongLandscape() throws IOException, PdfProto.PdfStampException {
         // papier in hochformat, druck in querformat in ACAD PDF drucktreiber.
         doStampImageTest(TEMPLATE_LANDSCAPE_WRONG_PDF, ARROW_LEFT, OUTPUT_LANDSCAPE_WRONG_PDF);
     }
 
-    @Ignore
     @Test
     public void stampImageOverPortraitPlan() throws IOException, PdfProto.PdfStampException {
         doStampImageTest(TEMPLATE_PORTRAIT_PDF, "arrow_left.jpg", OUTPUT_PORTRAIT_PDF);
     }
 
-    @Ignore
     @Test
     public void stampImageOverPlanLandscape() throws IOException, PdfProto.PdfStampException {
         doStampImageTest(TEMPLATE_LANDSCAPE_PDF, "arrow_left.jpg", OUTPUT_LANDSCAPE_PDF);
